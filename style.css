@@ -1,0 +1,28 @@
+body{
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+header{
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+article{
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+
+footer{
+    border: 1px solid pink;
+    box-sizing: border-box;
+}
+
+
