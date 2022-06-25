@@ -2,12 +2,14 @@ body{
     min-height: 100vh;
     max-width: 1000px;
     margin: auto;
-    font-family: 'Stick No Bills', sans-serif;
+    font-family: 'Domine', serif;
 }
 
 header{
     border: 1px solid blue;
     box-sizing: border-box;
+    background-image: url("images/notion.png");
+    color:azure
 }
 
 nav{
@@ -20,9 +22,29 @@ article{
     box-sizing: border-box;
 }
 
+.about{
+    border: 1px solid orange;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.portfolio{
+    border: 1px solid orange;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.main{
+    border: 1px solid orange;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
 footer{
     border: 1px solid pink;
     box-sizing: border-box;
 }
+
 
 
