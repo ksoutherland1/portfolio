@@ -68,6 +68,7 @@ justify-content: space-evenly space-around space-between;
 .page{
     display: flex;
     flex-direction: column;
+    border-bottom: 10px dotted black;
 }
 
 h2{
@@ -98,11 +99,21 @@ h2{
     box-sizing: border-box;
     /* align-content: space-around */
 }
+
 .btnicons{
     border: 1px solid green;
     box-sizing: border-box;
     align-self: center;
     padding: 10px 20px;    
+}
+
+footer{
+    display: flex;
+    align-items: flex-end:
+}
+
+#langs{
+    align-self: flex-start;
 }
 
 
