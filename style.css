@@ -11,23 +11,19 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
-
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
 .fixed-header{
-    flex-direction: row;
-}
-
-
-.header{
-    justify-content: flex-start;
-}
-
-.fixed-header{
-    align-self: flex-end;
     width: 100%;
     position: fixed;        
     background: #6fa2ff;
-    padding: 0.5em 0;
+    padding: 20px 0;
     color: #fff;
     top: 0;
 }
@@ -41,7 +37,7 @@ h1{
 }
 
 #welcome{
-padding: 3em
+    padding: 3em;
 }
 
 #main{
@@ -52,7 +48,7 @@ padding: 3em
 }
 
 #main p{
-    order: -1
+    order: -1;
 }
 
 main p{
