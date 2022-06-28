@@ -1,1 +1,3 @@
-console.log('hi there!')
+const resume = document.querySelector("#resume")
+
+resume.addEventListener('click, ')
