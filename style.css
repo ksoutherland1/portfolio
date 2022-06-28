@@ -1,6 +1,7 @@
 
 body{
     padding-top: 6rem;
+    max-width: 1800px;
     margin: auto;
     font-family: 'Domine', serif;
 }
@@ -71,7 +72,7 @@ h2{
     align-self: center;
 }
 
-#about img, #portfolio img{
+#about img, #projects img{
     width: 100px;
     object-fit: scale-down;
     align-self: center
@@ -86,14 +87,13 @@ h2{
     flex-direction: column;
 }
 
-#contact p, #portfolio p{
+#contact p, #projects p{
     align-self: center;
 }
 
 #contact{
     border: 1px solid blue;
     box-sizing: border-box;
-    /* align-content: space-around */
 }
 
 .btnicons, #mail, #resume{
@@ -127,7 +127,7 @@ footer{
     h2{
         align-self: flex-start;
     }
-    #portfolio h2{
+    #projects h2{
         align-self: flex-end;
     }
     .sta, .ga, .p1, .p2, .p3{
