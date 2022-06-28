@@ -13,70 +13,98 @@ body{
 
 .fixed-header{
     flex-direction: row;
-    border: 1px solid red;
-    box-sizing: border-box;
+}
+
+
+.header{
+    justify-content: flex-start;
+}
+
+.fixed-header{
+    align-self: flex-end;
+    width: 100%;
+    position: fixed;        
+    background: #6fa2ff;
+    padding: 0.5em 0;
+    color: #fff;
+    top: 0;
 }
 
 
 
-
-@media screen and (min-width: 600px) {
-
-    .header{
-        justify-content: flex-start;
-    }
-
-    .fixed-header{
-        align-self: flex-end;
-        width: 100%;
-        position: fixed;        
-        background: #6fa2ff;
-        padding: 0.5em 0;
-        color: #fff;
-        top: 0;
-    }
-
-    #top-nav{
-        align-self: flex-start
-    }
-
-    #ks{
-
-    }
-    h1{
-        border: 1px solid red;
-        box-sizing: border-box;
-        align-self: center;
-        width: 60%
-
-    }
-
-    #welcome{
+h1{
     border: 1px solid red;
     box-sizing: border-box;
-    padding: 3em
-    }
+    align-self: center;
+    width: 60%
 
-    #main{
-        border: 1px solid brown;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-evenly space-around space-between;
-        padding: 1em
-    }
+}
 
-    main p{
-        border: 1px solid red;
-        box-sizing: border-box;
-    padding: 3em
-    }
+#welcome{
+border: 1px solid red;
+box-sizing: border-box;
+padding: 3em
+}
 
-    about{
+#main{
     border: 1px solid brown;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly space-around space-between;
+    justify-content: space-evenly space-around;
+    padding: 1em
+}
+
+#main p{
+    order: -1
+}
+
+
+@media screen and (min-width: 600px) {
+    #main{
+        flex-direction: row;
+    }
+    #main p{
+        order: 0
     }
 }
 
+main p{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 3em
+}
+
+#about{
+border: 1px solid brown;
+box-sizing: border-box;
+
+justify-content: space-evenly space-around space-between;
+}
+
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    align-self: center;
+}
+
+
+@media screen and (min-width: 600px) {
+    #main{
+        flex-direction: row;
+    }
+    #main p{
+        order: 0
+    }
+    h2{
+        align-self: flex-start;
+    }
+    #portfolio h2{
+        align-self: flex-end;
+    }
+}
