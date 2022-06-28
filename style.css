@@ -36,7 +36,7 @@ h1{
     padding: 3rem;
     border: 2px solid #8C884F;
     box-sizing: border-box;
-    background-color:#F2F1E9;
+    background-color: #F2F1E9
 }
 
 #main{
@@ -51,7 +51,7 @@ h1{
 }
 
 main p{
-    border: 1px solid #403D1E;
+    border: 2px solid #8C884F;
     box-sizing: border-box;
     padding: 3em
 }
@@ -63,7 +63,7 @@ justify-content: space-evenly space-around space-between;
 .page{
     display: flex;
     flex-direction: column;
-    border-bottom: 10px dotted #403D1E;
+    border-bottom: 10px dotted #D9A5A0;
 }
 
 h2{
@@ -87,6 +87,7 @@ h2{
 
 #contact p, #projects p{
     align-self: center;
+    background-color: #F2F1E9;
 }
 
 #contact a{
@@ -101,15 +102,12 @@ h2{
 #mail{
     display: inline-block
 }
-
-footer{
-    display: flex;
-    align-items: flex-end:
+#mail, #resume{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
 }
 
-#langs{
-    align-self: flex-start;
-}
 
 @media screen and (min-width: 600px) {
     #main{

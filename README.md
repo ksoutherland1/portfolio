@@ -1,4 +1,5 @@
 # portfolio
+WIREFRAMES
 
 TECH USED
 
@@ -6,7 +7,7 @@ TECH USED
 
 APPROACH
 
-- This project tested my ability to work steadily through planning stages and prioritize functionality. I took time to 
+- This project tested my ability to work steadily through planning stages and prioritize functionality. I took time to re-examine my flexbox skills, as well as my media-query skills, and found that the extra time I put in was incredibly beneficial. I struggled to manage my timing-expectations, which did lead to rushing styling. I look to take this 
 
 USER STORIES
 
