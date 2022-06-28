@@ -96,11 +96,15 @@ h2{
     /* align-content: space-around */
 }
 
-.btnicons{
+.btnicons, #mail, #resume{
     border: 1px solid green;
     box-sizing: border-box;
     align-self: center;
     padding: 10px 20px;    
+}
+
+#mail{
+    display: inline-block
 }
 
 footer{
