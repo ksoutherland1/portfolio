@@ -1,0 +1,139 @@
+
+body{
+    padding-top: 6rem;
+    max-width: 1800px;
+    margin: auto;
+    font-family: 'Domine', serif;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+nav a{
+    color: #403D1E;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+.fixed-header{
+    width: 100%;
+    position: fixed;        
+    background: #F2F1E9;
+    padding: 20px 20px;
+    color: #fff;
+    top: 0;
+}
+
+h1{
+    align-self: center;
+    width: 60%;
+}
+
+#welcome{
+    padding: 3rem;
+    border: 2px solid #8C884F;
+    box-sizing: border-box;
+    background-color:#F2F1E9;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly space-around;
+    padding: 1em
+}
+
+#main p{
+    order: -1;
+}
+
+main p{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 3em
+}
+
+#about{
+justify-content: space-evenly space-around space-between;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 10px dotted #403D1E;
+}
+
+h2{
+    align-self: center;
+}
+
+#about img, #projects img{
+    width: 100px;
+    object-fit: scale-down;
+    align-self: center
+}
+
+.btnicons img{
+    height: 10vh;
+    object-fit: scale-down;
+}
+.sta, .ga, .p1, .p2, .p3, #contact{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact p, #projects p{
+    align-self: center;
+}
+
+#contact{
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+#contact a{
+    align-self: center
+}
+
+.btnicons, #mail, #resume{
+    align-self: center;
+    padding: 10px 20px;    
+}
+
+#mail{
+    display: inline-block
+}
+
+footer{
+    display: flex;
+    align-items: flex-end:
+}
+
+#langs{
+    align-self: flex-start;
+}
+
+@media screen and (min-width: 600px) {
+    #main{
+        flex-direction: row;
+    }
+    #main p{
+        order: 0
+    }
+    h2{
+        align-self: flex-start;
+    }
+    #projects h2{
+        align-self: flex-end;
+    }
+    .sta, .ga, .p1, .p2, .p3{
+        flex-direction: row;
+    }
+    .p2 img{
+        order: 2
+    }
+}
+
