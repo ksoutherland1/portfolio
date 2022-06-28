@@ -1,8 +1,22 @@
-const sendMail = document.querySelector("#mail").addEventListener('click', function runSendMail(){
-    let email="katesoutherland8@gmail.com";
-    location.href = "mailto:"+email
+let resume = document.querySelector("#resume");
+
+resume.addEventListener("click", function(play){
+    play.open("/Resume.pdf", '_blank')
+        return "done"
+    }
+)
+
+
+const navbar = document.querySelectorAll(".top")
+function colorChange (e) {
+    
+    e.target.style.color = '#897CA6';
+}
+navbar.forEach(p => p.addEventListener("mouseover", colorChange))
+navbar.forEach(p => p.addEventListener("mouseover", colorChange))
+changeNav.addEventListener('mouseout', function (over) {
+    over.style.color = 'black';
 })
 
-const window = document.querySelector("#resume").addEventListener("click", function openPdf(){
-    window.open("Here Download PDF url", '_blank');
-})
+let test = document.getElementById("test");
+
