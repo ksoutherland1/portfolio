@@ -9,14 +9,10 @@ resume.addEventListener("click", function(play){
 
 const navbar = document.querySelectorAll(".top")
 function colorChange (e) {
-    
+
     e.target.style.color = '#897CA6';
 }
 navbar.forEach(p => p.addEventListener("mouseover", colorChange))
-navbar.forEach(p => p.addEventListener("mouseover", colorChange))
-changeNav.addEventListener('mouseout', function (over) {
-    over.style.color = 'black';
-})
+navbar.forEach(p => p.addEventListener("mouseout", colorChange))
 
-let test = document.getElementById("test");
 
