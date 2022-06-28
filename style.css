@@ -5,46 +5,62 @@ body{
     font-family: 'Domine', serif;
 }
 
-header{
+
+.header{
     border: 1px solid blue;
     box-sizing: border-box;
-    background-image: url("images/notion.png");
-    color:azure
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-nav{
-    border: 1px solid red;
-    box-sizing: border-box;
-}
-
-article{
+.fixed-header{
     border: 1px solid green;
     box-sizing: border-box;
+    align-self: flex-end;
 }
 
-.about{
-    border: 1px solid orange;
+h1{
+    border: 1px solid red;
+    box-sizing: border-box;
+    align-self: center;
+    width: 60%
+
+}
+
+header p{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 3em
+}
+
+#main{
+    border: 1px solid brown;
     box-sizing: border-box;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly space-around space-between;
+    padding: 1em
 }
 
-.portfolio{
-    border: 1px solid orange;
+main p{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 3em
+}
+
+#about{
+    border: 1px solid brown;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly space-around space-between;
 }
 
-.main{
-    border: 1px solid orange;
-    box-sizing: border-box;
-    display: flex;
+.info{
+    
 }
 
-
-footer{
-    border: 1px solid pink;
-    box-sizing: border-box;
-}
 
 
 

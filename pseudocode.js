@@ -51,3 +51,12 @@
 
 //clickable elements 
 
+//fixed header and footer
+//side icons? email/clickables
+//fade-ins of pages
+//fadeins of all eleements
+//museum theme
+//hover changes
+//code inspection for projects
+
+
