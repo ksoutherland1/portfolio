@@ -25,5 +25,7 @@ TO INSTALL
 
 LIVE-SITE LINK
 
-- 
+- https://ksoutherland1.github.io/portfolio/
+
+
 A README.md file with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc
